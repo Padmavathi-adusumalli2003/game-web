@@ -1,0 +1,47 @@
+*{
+    margin:0px;
+    padding: 0px;
+}
+#container{
+    width:70%;
+    height:500px;
+    background-color:red;
+    margin-top: 50px;
+    margin-left: 15%;
+}
+#leftcontainer,#rightcontainer{
+    width:50%;
+    height: 100%;
+    background-color: yellow;
+    float: left;
+}
+#rightcontainer{
+    background-color: royalblue;
+
+}
+.leftcircle,.rightcircle{
+    width:100px;
+    height: 100px;
+    background-color: red;
+    border-radius: 100%;
+    margin-top: 50px;
+
+}
+.rightcircle{
+    margin-left: 80%;
+    transition: transform 0.5s;
+    background-color: 0.1s 0.3s;
+
+}
+input{
+    width: 1000px;
+    height: 50px;
+    margin-left: 18%;
+    font-size: 40px;
+    font-weight: bold;
+    letter-spacing: 10px;
+    background-color:orangered;
+    margin-top: 10px;
+    border:none;
+    color:white;
+}
